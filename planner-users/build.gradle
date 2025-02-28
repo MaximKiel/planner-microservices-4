@@ -21,7 +21,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
 
     implementation ('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'){
@@ -32,7 +32,7 @@ dependencies {
 
     }
 
-    implementation 'ru.javabegin.micro.planner:planner-entity'
+//    implementation 'ru.javabegin.micro.planner:planner-entity'
     implementation 'ru.javabegin.micro.planner:planner-utils'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     implementation 'org.springframework.cloud:spring-cloud-starter-stream-rabbit:+'
@@ -42,7 +42,7 @@ dependencies {
 
 
     // драйвер БД
-    runtimeOnly 'org.postgresql:postgresql'
+//    runtimeOnly 'org.postgresql:postgresql'
 
 
     // lombok
